@@ -27,6 +27,7 @@ body {
 }
 img {
     width: 200px;
+    height: 200px;
 }
 .TT .omg {
     display: none;
@@ -46,6 +47,7 @@ header h1 a {
     font-size: 36px;
     padding: 20px;
     font-style: caveat;
+    text-decoration: none;
 }
 h2 {
     color: var(--Head-color);
@@ -60,8 +62,10 @@ p {
 #Email {
     color: var(--Head-color);
 }
+#github {
+    color: var(--Head-color);
+}
 #facebook {
-    /* background-color: var(--p-color); */
     color: var(--Head-color);
 }
 footer {
