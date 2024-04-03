@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    --Head-color: #fb9ad1;
+    --p-color: #b3c8cf;
+    --bg1: #e9c874;
+    --bg2: #c08b5c;
+    --bg3: #ff88ef;
+
+    --fw1:300;
+    --fw2:600;
+    --fw3:900;
+    --fs-base: 1rem;
+
+    --A-font:"Inika",serif;
+}
+
+body {
+    background-color: rgb(247, 244, 245);
+    font-family: var(--A-font);
+    background-image: url('../images/black-background-with-pattern-leaves-flowers_55610-4720\ \(copy\).avif');
+    background-position: center;
+    background-size: cover;
+}
+img {
+    width: 200px;
+}
+.TT .omg {
+    display: none;
+}
+.TT:hover .wor {
+    display: none;
+}
+.TT:hover .omg {
+    display: inline;
+}
+
+.A {
+    color: var(--Head-color);
+}
+header h1 a {
+    color: var(--Head-color);
+    font-size: 36px;
+    padding: 20px;
+    font-style: caveat;
+}
+h2 {
+    color: var(--Head-color);
+    padding: 10px;
+}
+p {
+    color: var(--bg3);
+    padding: 5px 22px;
+    font-family: initial;
+}
+
+#Email {
+    color: var(--Head-color);
+}
+#facebook {
+    /* background-color: var(--p-color); */
+    color: var(--Head-color);
+}
+footer {
+    border: 5px solid var(--bg2);
+    padding: 20px 10px;
+    color: var(--Head-color);
+}
+
